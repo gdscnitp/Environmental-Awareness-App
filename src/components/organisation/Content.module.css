@@ -215,6 +215,8 @@
     width: 20em;
     height: 3em;
   }
+  .orgType{
+    width:20em;}
 }
 
 @media only screen and (max-width: 565px) {
@@ -225,6 +227,8 @@
     width: 24em;
     height: 3em;
   }
+  .orgType{
+    width:24em;}
 }
 @media only screen and (max-width: 500px) {
 
@@ -241,7 +245,7 @@
     padding: 1em;
   }
   .input {
-    width: 16em;
+    width: 13em;
     height: 3em;
     padding: 7px;
     font-size: smaller;
@@ -252,17 +256,23 @@
   .organisation{
     padding: 3em;
   }
+  .orgType{
+    width:10.9em;}
 }
 
 @media only screen and (max-width: 320px) {
   .input {
-    width: 11em;
+    width: 9em;
     height: 3em;
     padding: 7px;
     font-size: smaller;
   }
   .topic,.text{
     font-size: 0.8em;
+  }
+  .orgType{
+    width:7.6em;
+    height: 2.7em;
   }
 
 }

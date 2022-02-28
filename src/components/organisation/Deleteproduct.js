@@ -30,7 +30,7 @@ const Productpage = () => {
 
           <div className={styles.container1}>
             <div className={styles.mar}>
-              <h4 className={styles.product}>Product Price</h4>
+              <h4 className={styles.product2}>Product Price</h4>
             </div>
             <br />
             <h4 className={styles.dollars}>$45</h4>
@@ -61,7 +61,7 @@ const Productpage = () => {
 
           <div className={styles.container1}>
             <div className={styles.mar}>
-              <h4 className={styles.product}>Product Price</h4>
+              <h4 className={styles.product2}>Product Price</h4>
             </div>
             <br />
             <h4 className={styles.dollars}>$45</h4>
@@ -94,7 +94,7 @@ const Productpage = () => {
 
           <div className={styles.container1}>
             <div className={styles.mar}>
-              <h4 className={styles.product}>Product Price</h4>
+              <h4 className={styles.product2}>Product Price</h4>
             </div>
             <br />
             <h4 className={styles.dollars}>$45</h4>
