@@ -38,7 +38,7 @@
   
    .services{
        border: 2px solid rgb(34, 34, 34);
-      margin: 18px;
+      margin: 4px;
       padding: 18px;
       display: flex;
       background-color: #173033;
@@ -83,6 +83,14 @@
       
      
   }
+  .product2{
+      color:#00bd57;
+      display: inline;
+   
+      
+     
+  }
+
   .dollar{
       color: #FF7A00;
       margin-top: 12%;
@@ -103,7 +111,7 @@
   }
   .description{
       color: #00bd57;
-      margin-top:-14%;
+      margin-top:-15.6%;
       margin-left: 20%;
   }
   .spacing{
@@ -137,3 +145,140 @@
 .fin{
     margin-top: -3%;
 }
+
+@media only screen and (max-width: 1000px) {
+.description{
+    margin-top: -18%;
+    margin-bottom: 23%;
+
+}
+.product{
+    display: table-caption;
+
+}
+.product2{
+    display: table-caption;
+
+}
+.dollars{
+    margin-left: 20%;
+}
+.dollar{
+    margin-left: -9%;
+}
+
+
+}
+@media only screen and (max-width: 770px) {
+    .description{
+    margin-top: -26%;}
+
+    }
+@media only screen and (max-width: 700px) {
+.delete{
+    
+    margin-top: -40%;
+    margin-top: -3%;
+}
+.product{
+    font-size:;
+}
+.product2{
+    font-size: small;
+}
+.description{
+    margin-top: -40%;
+    font-size:small;
+    font-weight: bolder;
+margin-bottom: 25px;}
+.product2{
+    margin-left: -10%;
+    font-size:87%;
+
+
+    display: table-caption;}
+}
+
+    
+
+    @media only screen and (max-width: 600px) {
+
+        .description {
+            margin-left: 27%;
+            font-size: 79%;
+            display: table-caption;
+            margin-top: -55%;
+            font-weight: bolder;
+
+        }
+        .container2{
+            color: white;
+            width: 33%;
+            left: 9%;
+            bottom: -25px;
+            /* position: relative; */
+            margin-left: -9%;
+            margin-top: 0%;
+        }
+        .product2{
+            margin-left: -3%;
+    font-size: 73%;
+    display: table-caption;
+    font-weight: bolder;
+        }
+        .container1{
+            margin-left: 10%;
+            margin-right: 11%;
+
+        }
+        .product{
+            font-size: 73%;
+            margin-top: 10%;
+        }
+        .dollar{
+            margin-left: 3%;
+            display: table-caption;
+            font-size: 69%;
+            margin-top: 26%;
+            font-weight: bolder;
+        }
+        }
+        
+
+        @media only screen and (max-width: 500px) {
+    
+
+            .container1{
+
+                margin-left:6%;
+            }
+            .container2{
+                margin-left: 4%;
+            }
+
+            .servicescontainer{
+                width:74%;}
+        }
+        @media only screen and (max-width: 350px) {
+            .container2{
+                margin-left: -5%;
+            }
+        }
+        @media only screen and (max-width: 300px) {
+           .description{
+               margin-left: 35%;
+           }
+           .container1{
+               margin-right: 9%;
+           }
+           .product2{
+               margin-left: -28%;
+               margin-top: -4%;
+           }
+           .dollars{
+               margin-left: -11%;
+           }
+           .container2{
+               margin-left:-10%;
+           }
+        }
