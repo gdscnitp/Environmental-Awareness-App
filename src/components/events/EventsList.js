@@ -15,7 +15,7 @@ export default function EventsList(props) {
                 </div>
                 <div className={styles.eachEventTime}>
                     <span>
-                        {props.eventDetail.data[index].eventDate } 
+                        {props.eventDetail.data[index].eventDate.slice(0,10) } 
                     </span>
                       <span>
                         {props.eventDetail.data[index].eventTime }

@@ -50,7 +50,7 @@ export default function EventCard({events,IndividualDetails}) {
           <div className={styles.cardDetails}>
           <div className={styles.cardHeading}>{events.eventName}</div>
           <div className={styles.cardText}>{events.eventType}</div>
-          <div className={styles.cardTime}>{events.eventDetails[0].date}</div>
+          <div className={styles.cardTime}>{events.eventDetails[0].date.slice(0,10)}</div>
           <div className={styles.cardbtn}>
           <div className={styles.rsvp} >
          <a onClick={handleRSVP}> RSVP NOW</a>

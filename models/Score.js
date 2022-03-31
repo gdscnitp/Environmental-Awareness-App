@@ -12,7 +12,7 @@ const scoreSchema = new mongoose.Schema({
     email:{
         type: String,
         required: true,
-        unique:true,
+        unique:false,
         trim:true,
     },
 },{
